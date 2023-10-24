@@ -56,21 +56,7 @@ public class ProductController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		PrintWriter out = response.getWriter();
-
-//		List<Product> products = productDAO.getAllProducts();
-//		products.forEach(out :: println);
-
-//		boolean effect = productDAO.createProduct(new Product("Msi", 300.9, "This is balala",1L , " ", 3.3));
-//		if(effect != false) {
-//			out.print("create is successfully");
-//		}
-
-//		boolean effect = productDAO.deleteProduct(4L);
-//		boolean effect = productDAO.deleteFlash(1L);
-//		Product effect = productDAO.getProductById(5L);
-//		if(effect != null) {
-//			out.print(effect);
+		
 //		}
 	}
 
